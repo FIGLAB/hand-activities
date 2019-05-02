@@ -13,11 +13,11 @@ $ source hand-activities/bin/activate
 Once `virtualenv` is activated, install the following dependencies via `pip`:
 
 ```bash
-(ubicoustics)$ git clone https://github.com/FIGLAB/hand-activities.git
-(ubicoustics)$ pip install numpy
-(ubicoustics)$ pip install tensorflow
-(ubicoustics)$ pip install keras
-(ubicoustics)$ pip install wget
+(hand-activities)$ git clone https://github.com/FIGLAB/hand-activities.git
+(hand-activities)$ pip install numpy
+(hand-activities)$ pip install tensorflow
+(hand-activities)$ pip install keras
+(hand-activities)$ pip install wget
 ```
 
 # Example Demos
