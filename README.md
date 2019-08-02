@@ -21,7 +21,7 @@ Once `virtualenv` is activated, install the following dependencies via `pip`:
 ```
 
 # Example Demos
-TBD, keep an eye out for updates within the next several days.
+Dataset will be available soon.
 
 ## Disclaimer
 
