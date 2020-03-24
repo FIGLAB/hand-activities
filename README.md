@@ -20,8 +20,34 @@ Once `virtualenv` is activated, install the following dependencies via `pip`:
 (hand-activities)$ pip install wget
 ```
 
-# Example Demos
-Dataset will be available soon.
+# Dataset
+Download the dataset here:
+https://www.dropbox.com/sh/vawocn8ae2eiy96/AAAA7rgUCSp4RIXLixARh1Y8a?dl=1
+
+Unzip each file, and you’ll get numpy arrays that are organized by user or by round.
+
+```
+data = np.load('path_to_features_file.npy’)
+print(data.shape)
+```
+
+You’ll have matched label array pairs per condition. For example:
+
+```
+round1_x = np.load(‘round1_features_X.npy’)
+round1_y = np.load(‘round1_features_Y.npy’)
+round1_labels = np.load(‘round1_features_labels.npy’)
+
+print(round1_x.shape)
+print(round1_y.shape)
+print(round1_labels.shape)
+```
+
+If you print dataset shapes, their row counts should line up. X is a `3 x 256 x 48` array (x, y, z axes of the high-speed accelerometer signal).
+
+Each row is a datapoint. You can assemble your train / test / validation splits by concatenating different conditions.
+
+We suggest extracting a row from the input features (X), and plotting then using python `matplotlib`.
 
 ## Disclaimer
 
