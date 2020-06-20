@@ -57,6 +57,8 @@ https://www.dropbox.com/s/m3syf2rr5et5cce/model_hand-activities.h5?dl=1
 Note: this is a python-only pre-trained model. You will need to convert this model into your target client platform, and your target platform needs to match the sampling rate and featurization scheme described in our paper. 
 
 ## Disclaimer
+This work is for research purposes only. If you plan to use this for commercial use, please contact CMU's Tech Transfer office: `innovation@cmu.edu`.
+
 
 ```
 THE PROGRAM IS DISTRIBUTED IN THE HOPE THAT IT WILL BE USEFUL, BUT WITHOUT ANY WARRANTY. IT IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
