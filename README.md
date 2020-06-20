@@ -49,6 +49,13 @@ Each row is a datapoint. You can assemble your train / test / validation splits 
 
 We suggest extracting a row from the input features (X), and plotting then using python `matplotlib`.
 
+## Pre-Trained Model
+
+Download the pre-trained model:
+https://www.dropbox.com/s/m3syf2rr5et5cce/model_hand-activities.h5?dl=1
+
+Note: this is a python-only pre-trained model. You will need to convert this model into your target client platform, and your target platform needs to match the sampling rate and featurization scheme described in our paper. 
+
 ## Disclaimer
 
 ```
